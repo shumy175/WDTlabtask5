@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <meta charset="utf-8">
+       <title>Lab Task 5 WebApps</title>
+       <link rel="stylesheet" href="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+       <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+       <script src="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+span.b {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid blue;    
+  background-color: #EAF2F8; 
+}
+</style>
+ </head>
+ <body>
+    <div data-role="page" id="index"">
+         <div data-role="header">
+               <h1>Lab Task 5 WebApps</h1>
+         </div>
+		 <div data-role="navbar">
+   <ul>
+    <li><a href="index.html" rel="external"data-theme="b" data-icon="home">About Us</a></li>
+    <li><a href="Portfolio.html" rel="external" data-theme="b" data-icon="grid">Portfolio</a></li>
+    <li><a href="Contact.html" rel="external" data-theme="b" data-icon="info">Contact Us</a></li>
+   </ul>
+  </div>
+  <h2>Our Awards</h2>
+   <div data-role="collapsible" data-theme="b">
+	<h1>Outstanding Coding Project Award</h1>
+        <span class="b">Recognized for developing an exceptional coding project that demonstrated advanced problem-solving skills and creativity. This award highlights the student's dedication to pushing the boundaries of technology and showcases their ability to produce impactful work in the field of web design technology.</p>
+        <p>Points: 10</span>
+</div>
+   <div data-role="collapsible" data-theme="b">
+	<h1>Best Portfolio Showcase Award</h1>
+        <span class="b">Acknowledged for creating a standout portfolio that impressively showcased a collection of innovative and visually striking design projects. This award recognizes the student's commitment to excellence in design, user experience, and multimedia arts, setting them apart as a creative force in the academic community.</p>
+        <p>Points: 8</span>
+</div>
+   <div data-role="collapsible" data-theme="b">
+	<h1>Top Pitch at Entrepreneurship Competition</h1>
+        <span class="b">Awarded for delivering a compelling and innovative pitch at a prestigious entrepreneurship competition. This recognition emphasizes the student's ability to articulate their startup vision, demonstrating a keen understanding of business strategy and a capacity to transform entrepreneurial ideas into tangible and successful ventures.</p>
+        <p>Points: 12</span>
+</div>
+   <div data-role="collapsible" data-theme="b">
+	<h1>Community Impact Award</h1>
+        <span class="b">Honored for making a significant impact on the community through technology-driven initiatives. This award acknowledges the student's commitment to social responsibility and their ability to leverage web design technology for positive social change, demonstrating a dedication to using their skills for the betterment of society.</p>
+        <p>Points: 9</span>
+</div>
+		
+		<h2>Our Certificates</h2>         
+		<div data-role="collapsible" data-theme="b">
+		<h1>Certificate Viewer</h1>
+		<ul class="ui-corner-all ui-shadow" data-role="listview">
+			<li data-icon="arrow-r" data-theme="d"><a href="certificate1.pdf" target="_blank">
+Machine Learning by Stanford University</a></li>
+			<li data-icon="arrow-r" data-theme="d"><a href="certificate1.pdf" target="_blank">Graphic Design Masterclass</a></li>
+			<li data-icon="arrow-r" data-theme="d"><a href="certificate1.pdf" target="_blank">Business Strategy and Innovation</a></li>
+			<li data-icon="arrow-r" data-theme="d"><a href="#">Community Development and Social Impact</a></li>			
+			<li data-icon="arrow-r" data-theme="d"><a href="#">Advanced Algorithms and Data Structures</a></li>
+			<li data-icon="arrow-r" data-theme="d"><a href="#">Graphic Design Masterclass</a></li>
+			<li data-icon="arrow-r" data-theme="d"><a href="#">Business Strategy and Innovation</a></li>
+			<li data-icon="arrow-r" data-theme="d"><a href="#">Community Development and Social Impact</a></li>
+		</ul>
+		</div>
+    <script>
+        function openCertificate() {
+            // Specify the file path (in this case, certificate.pdf)
+            var filePath = 'certificate1.pdf';
+
+            // Open a new browser tab with the PDF file
+            window.open(filePath, '_blank');
+        }
+    </script>
+
+		<div data-role="footer" data-position="fixed">
+         <h4>Copyright &copy; Group X S1 2023/2024</h4>
+        </div>
+		</div>
+    </body>
+    </html>
